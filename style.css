@@ -33,11 +33,12 @@ li, a {
     gap: 48px;
     font-size: 16px;
     font-family: Cinzel;
+    font-weight: 600;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 12px;
     background-color: #1F2937;
 }
