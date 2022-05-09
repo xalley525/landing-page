@@ -22,10 +22,10 @@ li, a {
 
 .logo {
     display: flex;
-    background-color: aliceblue;
     border-radius: 100%;
-    border-style: double;
-    border-width: 8px;
+    border-style: solid;
+    border-color: aliceblue;
+    padding: 4px;
 }
 
 .buy {
