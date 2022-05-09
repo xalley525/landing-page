@@ -9,15 +9,34 @@ body {
     font-family: "Playfair Display", Cinzel, serif;
 }
 
+img {
+    height: 100px;
+    padding: 8px;
+}
+
 li, a {
     list-style: none;
     text-decoration: none;
+    color: aliceblue;
+}
+
+.logo {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 100%;
+    border-style: double;
+    border-width: 8px;
 }
 
 .buy {
     display: flex;
+    gap: 48px;
+    font-size: 16px;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #1F2937;
 }
