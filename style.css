@@ -8,3 +8,16 @@ body {
     flex-direction: column;
     font-family: "Playfair Display", Cinzel, serif;
 }
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.buy {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
