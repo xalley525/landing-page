@@ -81,7 +81,7 @@ button:hover {
     background-color: #1F2937;
 }
 
-.hero {
+.sec1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,14 +92,14 @@ button:hover {
     color: antiquewhite;
 }
 
-.dga {
+.hero {
     display: flex;
     flex-direction: column;
     width: 475px;
     gap: 16px;
 }
 
-.info {
+.sec2 {
     display: flex;
     flex-direction: column;
     align-items: center;
