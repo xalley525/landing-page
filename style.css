@@ -22,6 +22,14 @@ h1 {
     text-shadow: 2px 2px rgb(109, 99, 80);
 }
 
+h2 {
+    font-family: Cinzel;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-shadow: 1px 1px #3c4758;  
+}
+
 button {
     background-color: #364e70;
     color: rgb(200, 230, 255);
@@ -89,4 +97,38 @@ button:hover {
     flex-direction: column;
     width: 475px;
     gap: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 5em;
+    gap: 5em;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0em 5em;
+    gap: 5em;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    text-align: center;
+    gap: 1em;
+}
+
+.pic {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.fn {
+    color: #3c4758;
 }
