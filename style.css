@@ -57,7 +57,7 @@ button:hover {
     height: 350px;
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(200, 230, 255);
+    border-color: rgba(154, 177, 196, 0.815);
     border-radius: 20px;
     box-shadow: 0px 0px 12px 12px #3c4758;
 }
