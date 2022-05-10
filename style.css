@@ -143,14 +143,11 @@ button:hover {
     background-color: #e5e7eb;
     color: #1F2937;
     padding: 5em;
-    gap: 2em;
+    gap: 3em;
 }
 
-.q-box {
-    max-width: 10em;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #1F2937;
+.box {
+    max-width: 1000px;
 }
 
 .quote {
@@ -158,8 +155,12 @@ button:hover {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    text-align: justify;
 }
 
 .cite {
+    font-size: 18px;
     font-weight: bold;
+    text-align: right;
+    padding: 4px 20px;
 }
