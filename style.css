@@ -12,14 +12,36 @@ body {
 li, a, span {
     list-style: none;
     text-decoration: none;
-    color: rgb(200, 230, 255);
+    color: #c8e6ff;
+}
+
+button {
+    max-width: 120px;
+    min-width: 100px;
+    background-color: #c8e6ff;
+    color: #1F2937;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: #3c4758;
+    color: #c8e6ff;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-width: 1px;
 }
 
 h1 {
     font-family: Cinzel;
     font-size: 48px;
     font-weight: bolder;
-    text-shadow: 2px 2px rgb(109, 99, 80);
+    text-shadow: 2px 2px #767a81;
 }
 
 h2 {
@@ -30,22 +52,8 @@ h2 {
     text-shadow: 1px 1px #3c4758;  
 }
 
-button {
-    background-color: #364e70;
-    color: rgb(200, 230, 255);
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: Cinzel;
-    width: 110px;
-    padding: 5px;
-    border: none;
-    border-radius: 8px;
-    transition-duration: 0.5s;
-}
-
-button:hover {
-    background-color: rgb(200, 230, 255);
-    color: #1F2937;
+h3 {
+    font-size: 30px;
 }
 
 #logo {
@@ -53,7 +61,7 @@ button:hover {
     border-radius: 100%;
     border-style: double;
     border-width: 6px;
-    border-color: rgb(200, 230, 255);
+    border-color: #c8e6ff;
     padding: 4px;
 }
 
@@ -89,12 +97,13 @@ button:hover {
     padding: 48px;
     padding-bottom: 128px;
     background-color: #1F2937;
-    color: antiquewhite;
+    color: #e5e7eb;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
+    font-size: 18px;
     width: 475px;
     gap: 16px;
 }
@@ -163,4 +172,27 @@ button:hover {
     font-weight: bold;
     text-align: right;
     padding: 4px 20px;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    color: aliceblue;
+    padding: 5em 10em;    
+}
+
+.c2a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    background-color: #364e70;
+    border-radius: 10px;
+    padding: 3em 5em;
+}
+
+.text {
+    width: 600px;
+    font-size: 20px;
 }
