@@ -9,19 +9,14 @@ body {
     font-family: "Playfair Display", Cinzel, serif;
 }
 
-img {
-    height: 100px;
-    padding: 8px;
-}
-
 li, a {
     list-style: none;
     text-decoration: none;
     color: aliceblue;
 }
 
-.logo {
-    display: flex;
+#logo {
+    height: 100px;
     border-radius: 100%;
     border-style: solid;
     border-color: aliceblue;
@@ -41,4 +36,15 @@ li, a {
     justify-content: space-between;
     padding: 12px;
     background-color: #1F2937;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mydice {
+    
 }
