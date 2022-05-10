@@ -135,3 +135,31 @@ button:hover {
     color: darkslategray;
     text-decoration: underline;
 }
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    padding: 5em;
+    gap: 2em;
+}
+
+.q-box {
+    max-width: 10em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1F2937;
+}
+
+.quote {
+    font-family: Cinzel;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cite {
+    font-weight: bold;
+}
