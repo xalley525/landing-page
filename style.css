@@ -23,6 +23,12 @@ li, a {
     padding: 4px;
 }
 
+#mydice {
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 8px #f0f8ff23;
+}
+
 .buy {
     display: flex;
     gap: 48px;
@@ -41,10 +47,14 @@ li, a {
 .intro {
     display: flex;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    align-items: center;
+    gap: 100px;
+    padding: 32px;
+    background-color: #1F2937;
+    font-family: Cinzel;
+    color: aliceblue;
 }
 
-.mydice {
-    
+.dga {
+    width: 500px;
 }
