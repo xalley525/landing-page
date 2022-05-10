@@ -6,27 +6,56 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: "Playfair Display", Cinzel, serif;
+    font-family: Poppins, Cinzel, sans-serif;
 }
 
-li, a {
+li, a, span {
     list-style: none;
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(200, 230, 255);
+}
+
+h1 {
+    font-family: Cinzel;
+    font-size: 48px;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(109, 99, 80);
+}
+
+button {
+    background-color: #364e70;
+    color: rgb(200, 230, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Cinzel;
+    width: 110px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(200, 230, 255);
+    color: #1F2937;
 }
 
 #logo {
     height: 100px;
     border-radius: 100%;
-    border-style: solid;
-    border-color: aliceblue;
+    border-style: double;
+    border-width: 6px;
+    border-color: rgb(200, 230, 255);
     padding: 4px;
 }
 
 #mydice {
     height: 350px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(200, 230, 255);
     border-radius: 20px;
-    box-shadow: 0px 0px 8px 8px #f0f8ff23;
+    box-shadow: 0px 0px 12px 12px #3c4758;
 }
 
 .buy {
@@ -49,12 +78,15 @@ li, a {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 32px;
+    padding: 48px;
+    padding-bottom: 128px;
     background-color: #1F2937;
-    font-family: Cinzel;
-    color: aliceblue;
+    color: antiquewhite;
 }
 
 .dga {
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    gap: 16px;
 }
