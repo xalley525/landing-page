@@ -129,6 +129,13 @@ button:hover {
     border-radius: 10px;
 }
 
+.label {
+    position: relative;
+    top: 8px;
+    text-align: center;
+    color: aliceblue;
+}
+
 .fn {
     color: #364e70;
 }
