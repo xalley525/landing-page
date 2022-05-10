@@ -9,9 +9,13 @@ body {
     font-family: Poppins, Cinzel, sans-serif;
 }
 
-li, a, span {
+li, a {
     list-style: none;
     text-decoration: none;
+    color: rgb(200, 230, 255);
+}
+
+span {
     color: rgb(200, 230, 255);
 }
 
